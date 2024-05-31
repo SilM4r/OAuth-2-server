@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "rootDir": "./",
+        "outDir": "./dist",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "allowJs": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "bin",
+        "OAuth-2-server/models",
+        "OAuth-2-server/routes",
+        "OAuth-2-server/services"
+    ],
+    "exclude": [
+        "../node_modules"
+    ]
+}
